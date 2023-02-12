@@ -19,7 +19,7 @@ function Projects() {
             key={id}
             className="project flex flex-col p-10"
             >
-            <h5 className="font-semibold text-xl pb-4">{project.name}</h5>
+            <h2 className="font-semibold text-xl pb-4">{project.name}</h2>
             <img src={project.image} alt={project.alt} />
             <div className="flex justify-between w-100">
               {project.usedIcons.map((icon, index) => (
