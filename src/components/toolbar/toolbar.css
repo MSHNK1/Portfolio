@@ -1,0 +1,13 @@
+.header-1 {
+    background: #FFFFFF;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 48px;
+}
+
+.header-2 {
+    background: transparent;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 58px;
+}

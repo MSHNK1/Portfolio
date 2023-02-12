@@ -1,0 +1,21 @@
+.burger {
+    width: 50px;
+    height: 48px;
+    transition: all .3s ease-in-out;
+}
+
+.burger > div {
+    height: 3px;
+    margin-inline: 5%;
+    /* width: 90%; */
+    /* transform: rotate(45deg); */
+    background-color: red;
+}
+
+.padding-1 {
+    padding: 9px 0;
+}
+
+.padding-2 {
+    padding: 11px 0;
+}

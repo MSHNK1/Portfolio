@@ -1,0 +1,12 @@
+.hire {
+    padding-top: 30px;
+}
+
+.hire p {
+    /* width: 30em; */
+    max-width: 100%;
+}
+
+.hire a {
+    width: min-content;
+}

@@ -1,0 +1,37 @@
+.portfolio > h1 {
+    margin-bottom: 30px;
+}
+
+.projects-container > a {
+    height: 400px;
+    background-color: white;
+}
+
+.projects-container > .project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 11px rgba(33,33,33,.2);  */
+    transition: all 1s ease-in-out;
+}
+
+.projects-container > .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 3px 5px gray; */
+    transition: all .5s ease-in-out;
+    /* transform: scale(1.1); */
+    /* scale: 1.1; */
+}
+
+.projects-container > .project > img {
+    margin: auto 0;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.project .icon {
+    height: 20px;
+}
+

@@ -1,0 +1,25 @@
+.sideDrawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    transform: translateX(100vw);
+    transition: all .5s ease-out;
+    z-index: 10;
+}
+.sideDrawer a {
+    color: black;
+}
+.sideDrawer > div {
+    text-align: left;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.open {
+    transform: translateX(0);
+    transition: all .5s ease-out;
+}
