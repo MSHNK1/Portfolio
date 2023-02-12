@@ -60,7 +60,7 @@ function About() {
       <div className="tablet:w-6/12">
         <AboutMe />
         <ContactLinks />
-        <a href={CV} download>
+        <a href={CV} download aria-label="Download my CV">
           <Button btnType=" download">My Resume <i className="fa fa-download"></i></Button>
         </a>
       </div>

@@ -4,7 +4,7 @@ import './logo.css';
 
 function Logo(props) {
   return (
-    <a href='/' className={`${props.navClass ? "logoCl-1 " : "logoCl-2 "}logo`}>
+    <a href='/' className={`${props.navClass ? "logoCl-1 " : "logoCl-2 "}logo`} aria-label="Home">
       <img src={logo} alt="Logo" />
     </a>
   )

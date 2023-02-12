@@ -11,6 +11,6 @@
     cursor: pointer;
 }
 
-.contact .fa:hover {
+.contact a:hover .fa {
     color: #48b14d;
 }

@@ -20,7 +20,7 @@ function NavigationItems(props) {
         <ul className={`${sideDrawer} ${props.navClass ? 'navbarClass' : ''} mobile-xl:flex-row`}>
           {navitems.map(item => (
               <li className='text-sm tablet:text-lg laptop:text-xl'  key={item}>
-                <a href={`#${item}`}>
+                <a href={`#${item}`} aria-label={`#${item}`}>
                   {item}
                 </a>
               </li>

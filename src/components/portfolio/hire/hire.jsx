@@ -18,7 +18,7 @@ export default function Hire() {
         <p className="text-justify w-full">
           Based on my academic degree I was always excelled in Math and Physics. Hence, I possess good fast learning, logical and analytical skills. Last more than a year I formed a strong attachment to web development. With the guide of diverse online courses I managed to learn basics on my own. I keep acquiring a comprehensive knowledge in the field. My assertiveness and passion for the industry paved the way for such a rapid success. A few months after starting my studies, I started working at "SoftChef". I constantly embrace challenges and believe that through hard work and perseverance everything is achievable.
         </p>
-        <a href="#Contact">
+        <a href="#Contact" aria-label="Button to scroll to Contact's section">
           <Button btnType=" touch">Get In Touch</Button>
         </a>
       </div>
