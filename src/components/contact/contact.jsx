@@ -10,7 +10,7 @@ function Contact() {
         <div className='flex flex-col gap-8 mobile-xl:flex-row justify-center mobile-xl:gap-x-32'>
             <div className='flex flex-col items-center'>
                 <i className="fa fa-envelope"></i>
-                <a href='mailto:nikaqochqiani@yahoo.com'>nikaqochqiani@yahoo.com</a>
+                {/* <a href='mailto:nikaqochqiani@yahoo.com'>nikaqochqiani@yahoo.com</a> */}
                 <a href='mailto:qochqianin@yahoo.com'>qochqianin@yahoo.com</a>
             </div>
             <div className='flex flex-col items-center'>

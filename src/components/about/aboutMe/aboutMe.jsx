@@ -16,7 +16,7 @@ export default function AboutMe() {
         Past experience: Power Systems Engineer with 2-year working experience
         in Georgian State Electrosystem using various software tools{" "}
         <i>(PSS/E, PowerFactory, PLEXOS)</i> and programming languages{" "}
-        <i>(Python, MATLAB)</i>
+        <i>(Python, MATLAB)</i>.
       </p>
     </article>
   );
