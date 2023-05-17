@@ -9,4 +9,10 @@
 .skill > img {
     height: 50px;
     width: auto;
+    transition: transform .3s ease-in-out;
+}
+
+.skill:hover img {
+    transform: scale(1.15);
+    transition: transform .3s ease-in-out;
 }

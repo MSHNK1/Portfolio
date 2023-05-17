@@ -10,8 +10,8 @@ export default function SideDrawer(props) {
   }
   return (
     <div>
-      <BackDrop show={props.opened} clicked={props.closed}/>
-      <div className={`sideDrawer ${attachedClasses} mobile-xl:hidden`} show={props.opened} onClick={props.closed}>
+      <BackDrop show={props.opened ? props.opened : undefined} clicked={props.closed}/>
+      <div className={`sideDrawer ${attachedClasses} mobile-xl:hidden`} show={props.opened ? props.opened : undefined} onClick={props.closed}>
           <NavigationItems />
       </div>
     </div>

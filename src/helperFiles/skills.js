@@ -17,7 +17,6 @@ import python from '../assets/images/PYTHON.png';
 import git from '../assets/images/GIT.png';
 import github from '../assets/images/GITHUB.png';
 import azure from '../assets/images/AZURE.png';
-import jira from '../assets/images/jira.png';
 
 // design
 import figma from '../assets/images/FIGMA.png';
@@ -103,10 +102,6 @@ export const skills = [
             {
                 "icon": azure,
                 "alt": "Azure"
-            },
-            {
-                "icon": jira,
-                "alt": "Jira"
             }
         ]
     }

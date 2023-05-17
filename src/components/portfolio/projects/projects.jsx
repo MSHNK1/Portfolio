@@ -18,6 +18,7 @@ function Projects() {
             target="_blank"
             key={id}
             className="project flex flex-col p-10"
+            title={project.description}
             >
             <h2 className="font-semibold text-xl pb-4">{project.name}</h2>
             <img src={project.image} alt={project.alt} />
