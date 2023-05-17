@@ -8,7 +8,7 @@ export default function AboutMe() {
         Front-End (React) Developer
       </h2>
       <p className="text-justify text-sm tablet:text-base laptop:text-lg mb-3">
-        with a strong scientific background, about one-year experience
+        with a strong scientific background, more than one-year experience
         and strong two-way communication in English (IELTS valid Academic
         Certification).
       </p>
