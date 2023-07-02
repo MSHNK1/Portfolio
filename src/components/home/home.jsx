@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import PageContent from "../../UI/pageContent/pageContent";
 import "./home.css";
-import bg from "../../assets/images/bg.jpg";
+import bg from "../../assets/images/bgp.jpg";
 import {
   Parallax,
   ParallaxBanner,

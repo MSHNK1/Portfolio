@@ -17,7 +17,7 @@ function Projects() {
             href={project.link}
             target="_blank"
             key={id}
-            className="project flex flex-col p-10"
+            className="project flex flex-col p-10 user-select-none"
             title={project.description}
             >
             <h2 className="font-semibold text-xl pb-4">{project.name}</h2>

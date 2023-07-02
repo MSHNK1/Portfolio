@@ -1,6 +1,6 @@
 import React from "react";
 import ContactLinks from "../../UI/contactLinks/contactLinks";
-import CV from "../../../CV - Nika Kochkiani.pdf";
+import CV from "../../../Nika Kochkiani CV.pdf";
 import Button from "../../UI/Button/button";
 import AboutMe from "./aboutMe/aboutMe";
 import PageContent from "../../UI/pageContent/pageContent";
