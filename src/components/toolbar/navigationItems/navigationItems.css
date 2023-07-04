@@ -18,19 +18,19 @@
 }
 
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .navbar > li {
         padding-inline: 1rem !important;
     }
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
     .tabletAndAbove {
         display: none !important;
     }
 }
 
-@media (min-width: 599px) {
+@media screen and (min-width: 599px) {
     .navbarClass > li {
         padding: 15px 20px;
         transition: all .3s ease-in-out;
